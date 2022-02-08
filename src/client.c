@@ -6,7 +6,7 @@
 /*   By: shalfbea <shalfbea@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 12:00:18 by shalfbea          #+#    #+#             */
-/*   Updated: 2022/02/01 12:01:58 by shalfbea         ###   ########.fr       */
+/*   Updated: 2022/02/08 18:05:04 by shalfbea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,9 @@
 
 int	main(int argc, char **argv)
 {
-	(void) argc;
-	(void) argv;
+	if (argc == 2)
+	{
+		kill(ft_atoi(argv[1]), )
+	}
 	return (0);
 }

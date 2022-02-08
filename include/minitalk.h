@@ -6,7 +6,7 @@
 /*   By: shalfbea <shalfbea@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 11:59:38 by shalfbea          #+#    #+#             */
-/*   Updated: 2022/02/01 12:09:53 by shalfbea         ###   ########.fr       */
+/*   Updated: 2022/02/08 17:43:53 by shalfbea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,11 @@
 # include <stdlib.h>
 # include <signal.h>
 # include <unistd.h>
+
+# include "libft.h"
+
+typedef struct sigaction	t_sigacton;
+
+int	ft_printf(const char *str, ...);
+
 #endif
