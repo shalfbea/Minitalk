@@ -25,7 +25,9 @@ using UNIX signals.
 
 3. Now you can run ./server in first terminal session and ./client <ServerPort> <Message> in an other
 	Example:
-//PIC
+
+<img width="1199" alt="Minitalk_example" src="https://user-images.githubusercontent.com/92727363/190214801-af9c154a-7791-4ae8-a91f-1f8afa23fe75.png">
+
 Note: Client will notify for every signal received by server
 
 ## Technical task
@@ -47,3 +49,4 @@ and [ft_printf](https://github.com/shalfbea/ft_printf) (own implementation of pr
 - Unicode characters support
 
 ### Evaluation result:
+<img width="1612" alt="Screen Shot 2022-09-14 at 19 14 00" src="https://user-images.githubusercontent.com/92727363/190215040-7399b7fc-7ef7-4642-9d37-201933ca812f.png">
